@@ -123,11 +123,13 @@ body {
 .buttons a {
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .buttons a:nth-child(1) {
     background-image: url('img/apple-button.png');
+    margin-right: 1rem;
 }
 
 .buttons a:nth-child(2) {
