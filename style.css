@@ -43,6 +43,7 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+    padding: 0 5%;
 }
 
 .content {
@@ -55,6 +56,7 @@ body {
     padding: 1.3rem 0;
     border: 1px solid lightgray;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 .content:nth-child(1) {
@@ -143,6 +145,10 @@ body {
 }
 
 @media (max-width: 650px) {
+    body {
+        background-color: #fff;
+    }
+
     .instagram-wrapper {
         width: 90%;
     }
@@ -153,5 +159,9 @@ body {
 
     .instagram-continue {
         width: 100%;
+    }
+
+    .content {
+        border: none;
     }
 }
